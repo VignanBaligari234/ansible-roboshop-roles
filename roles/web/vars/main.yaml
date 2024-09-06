@@ -1,0 +1,5 @@
+CATALOGUE_HOST: catalogue.vignanlabs.online
+USER_HOST: user.vignanlabs.online
+CART_HOST: cart.vignanlabs.online
+SHIPPING_HOST: shipping.vignanlabs.online
+PAYMENT_HOST: payment.vignanlabs.online
