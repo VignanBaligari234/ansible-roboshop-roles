@@ -9,4 +9,4 @@
     state: installed
 
 - name: load {{component}} data into mongodb
-  ansible.builtin.command: mongo --host mongodb.vignanlabs.online < /app/schema/{{component}}.js
+  ansible.builtin.shell: mongo --host mongodb.vignanlabs.online < /app/schema/{{component}}.js
