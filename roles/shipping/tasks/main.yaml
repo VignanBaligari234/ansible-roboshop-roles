@@ -9,7 +9,7 @@
     tasks_from: app-setup
 
 - name: install dependencies
-  ansible.builtin.shell: mvn clean package
+  ansible.builtin.shell: mvn package
   args:
     chdir: /app
 
